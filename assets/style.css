@@ -1,0 +1,144 @@
+h1 {
+    text-align: center;
+    font-size: 2.5rem
+  }
+
+.scores {
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: darkcyan;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: .5rem;
+
+}
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:400;
+  }
+  
+  button {
+    border-radius: 8px;
+  }
+  
+  
+  label {
+    margin-right: 10px;
+  }
+
+  input {
+    margin-bottom: 20px;
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid lightgray;
+    background-color: darkcyan;
+    opacity: 50%;
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li {
+    background-color: darkcyan;
+    margin-top: 10px;
+    padding: .5rem 1rem;
+    width: 80%;
+    font-size: 2rem;
+    color: white;
+    border-radius: .5rem;
+    font-weight: 400;
+  }
+
+  li:hover {
+    background-color: plum;
+    transition: 2s;
+  }
+  
+  #container {
+    position: absolute;
+  }
+
+  #startTime {
+    background-color: darkcyan;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+
+
+  #startTime:hover {
+    background-color: plum;
+    transition: 2s;
+  }
+  #questionsDiv {
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+  }
+  
+  #createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+  }
+  
+  #currentTime {
+    float: right;
+    font-size: 1.5rem;
+  }
+  
+  #goBack {
+    background-color: darkcyan;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  
+  #clear {
+    background-color: darkcyan;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  
+  #Submit {
+    background-color: darkcyan;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 786px) {
+    body {
+      max-width: 786px;
+    }
+    #wrapper {
+      position: absolute;
+      left: 20%;
+    }
+  }
+  
