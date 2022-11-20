@@ -1,30 +1,49 @@
+/* Sets default font-family for all elements and padding for the body element */
 * {
   font-family: 'Courier New', Courier, monospace;
 }
-  .scores {
-    font-size: 20px;
-    text-decoration: none;
-    background-color: darkcyan;
-    padding: 15px;
-    color: white;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-right: 50px;
-  }
 
   body {
     padding: 20px;
   }
 
+  /* Formats div containers to help center content and provide adequate spacing */
   #container {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 12%;
     width: 500px;
     height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
   }
 
+  #questionsDiv {
+    text-align: center;
+    font-size: 35px;
+    margin-right: 150px;
+    width: 500px;
+  }
+
+  /* Formats div container for "Correct!" and "Wrong!" alerts */
+  #createDiv {
+    margin-top: 15px;
+    border-top: 2px solid plum;
+  } 
+
+  /* Formats the "Start Quiz" button */
+  #startTime {
+    padding: 15px 32px;
+    font-size: 20px;
+  }
+  
+  /* Formats the timer position and font-size */
+  #currentTime {
+    float: right;
+    font-size: 20px;
+  }
+
+
+  /* General formatting for h1, p, and li elements */
   h1 {
     text-align: center;
     font-size: 40px;
@@ -45,8 +64,16 @@
     border-radius: .5rem;
     font-weight: 400;
   }
-  
-  button {
+
+  /* Formats "View Highscores" link */
+  .scores {
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 50px;
+  }
+
+  /* Formats all button elements; additional formatting to "View Highscores" link */
+  button, .scores {
     background-color: darkcyan;
     color: white;
     font-size: 20px;
@@ -54,11 +81,13 @@
     border-radius: 8px;
     border: none;
   }
-  
+
+  /* Formats the input data field for user to enter initials */
   input {
     width: 15rem;
     height: 2rem;
     border: 1px solid plum;
+    border-radius: 8px;
     background-color: darkcyan;
     opacity: 50%;
     color: white;
@@ -66,34 +95,19 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  /* Formats li, button, and input elements, and "View Highscores" link with a hover pseudo-class */
   li:hover, .scores:hover, button:hover, input:hover {
     background-color: plum;
     transition: 2s;
   }
 
-  #startTime {
+  /* Formats the "Submit", "Go Back", and "Clear Highscores" buttons */
+  #submit {
+    margin-left: 10px;
+    margin-bottom: 10px;
     padding: 15px 32px;
-    font-size: 20px;
   }
 
-
-  #questionsDiv {
-    text-align: center;
-    font-size: 35px;
-    margin-right: 150px;
-    width: 500px;
-  }
-  
-  #createDiv {
-    margin-top: 20px;
-    border-top: 1px solid lightgray;
-  }
-  
-  #currentTime {
-    float: right;
-    font-size: 1.5rem;
-  }
-  
   #goBack {
     padding: 10px;
     text-decoration: none;
@@ -102,21 +116,5 @@
   #clear {
     padding: 10px;
     text-align: center;
-  }
-  
-  #submit {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding: 15px 32px;
-  }
-  
-  @media screen and (max-width: 786px) {
-    body {
-      max-width: 786px;
-    }
-    #wrapper {
-      position: absolute;
-      left: 20%;
-    }
   }
   
