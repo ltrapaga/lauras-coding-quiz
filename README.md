@@ -12,12 +12,14 @@ To access my Web APIs Challenge: Code Quiz, please visit the live site at https:
 
 ## Screenshots
 
-<img width="1398" alt="image" src="https://user-images.githubusercontent.com/115514660/202876047-94240786-569c-48c1-a11d-da743b67a23c.png">
-<img width="1425" alt="image" src="https://user-images.githubusercontent.com/115514660/202876057-b8e59732-fc1c-4f36-844d-9980b46b9ece.png">
-<img width="1412" alt="image" src="https://user-images.githubusercontent.com/115514660/202876071-3e3cd0f0-50a7-42f4-b35e-e4c1b1f14df5.png">
-<img width="1408" alt="image" src="https://user-images.githubusercontent.com/115514660/202876075-d22c6dd8-e77e-460d-bdf3-d54551fc784f.png">
-<img width="1416" alt="image" src="https://user-images.githubusercontent.com/115514660/202876109-4318b1d4-1e47-43f4-941d-d189a8e613c6.png">
-<img width="1416" alt="image" src="https://user-images.githubusercontent.com/115514660/202876117-0b31aec1-0483-4b72-8560-8ec5c10d0c2f.png">
-<img width="1245" alt="image" src="https://user-images.githubusercontent.com/115514660/202876157-9239e6b9-59c6-4d73-a245-13b02058ada5.png">
+<img width="1415" alt="image" src="https://user-images.githubusercontent.com/115514660/202879078-7193458f-f295-4dea-acab-9b8a82f7978a.png">
+<img width="1422" alt="image" src="https://user-images.githubusercontent.com/115514660/202879089-41ff9313-7c1c-4c2f-8edc-b4b14d3639ff.png">
+<img width="1414" alt="image" src="https://user-images.githubusercontent.com/115514660/202879097-4afde5f2-14e6-46a1-bcf1-5b71df8d46f4.png">
+<img width="1414" alt="image" src="https://user-images.githubusercontent.com/115514660/202879105-b1eee904-9403-4e2e-8cb6-033ac2d79b52.png">
+<img width="1421" alt="image" src="https://user-images.githubusercontent.com/115514660/202879117-60ee344f-0da0-4935-a638-b2dbdcfb6c60.png">
+<img width="1417" alt="image" src="https://user-images.githubusercontent.com/115514660/202879126-d0642265-a1ba-475f-874c-cff2c12084af.png">
+<img width="1411" alt="image" src="https://user-images.githubusercontent.com/115514660/202879202-bbc6ce54-50d0-4ea1-add8-b823a5726e8f.png">
+<img width="1421" alt="image" src="https://user-images.githubusercontent.com/115514660/202879194-8b90f597-202e-487c-a8c0-404a83d00f70.png">
+
 
 
